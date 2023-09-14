@@ -50,8 +50,8 @@ ol li{
     padding: 5px;
     color: #0a0a0a;
 }
-ol li :nth-child(even){
-    background-color:#0d548975 ;
+ol li:nth-child(even){
+    background-color:#a9acaff5 ;
 }
 .strike{
     text-decoration: line-through;
