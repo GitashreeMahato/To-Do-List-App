@@ -2,28 +2,39 @@
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
-    background: #dfdfdf;
+    background:  rgb(167, 208, 227) ;
 }
 .Container{
     /* text-align: center; */
-    background-color: #f0f8ff;
-    width: 300px;
+    background-image: linear-gradient(180deg, rgb(99, 183, 221), rgb(170, 172, 224)) ;
+
+    /* background-color: #f0f8ff; */
+    width: 400px;
+    height: 400px;
    padding: 20px;
    margin: 0 auto;
     margin-top: 40px;
    border-radius: 4px;
+   box-shadow: 10px 15px 20px #3e3b3b;
    
     
 }
 form{
     display: inline-block;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
 }
 
 p{
     font-style: italic;
+    margin-top: 50px;
 }
 input{
     padding: 5px 15px 4px 5px;
+    
 }
 
 #button{
@@ -42,6 +53,10 @@ input{
     cursor: pointer;
     opacity: 0.8;
 
+}
+.textbox{
+    text-align: center;
+    margin-top: 20px
 }
 ol{
     padding-left: 20px;
